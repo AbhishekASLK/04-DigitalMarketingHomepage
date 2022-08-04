@@ -1,0 +1,87 @@
+
+
+body{
+    background-color: rgb(250, 255, 255);
+    font-family: 'Poppins';
+    height: 90vh;
+    overflow-y: hidden;
+    margin-right: 200px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+.list{
+    display: flex;
+}
+li{
+    display: flex;
+    padding: 0 17px;
+    color: rgb(177, 167, 155);
+}
+div.grow-list{
+    margin-left: 25px;
+    margin-right: 556px;
+}
+li:hover{
+    color: black;
+    cursor: pointer;
+}
+nav img{
+    margin-left: 173px;
+    height: 42px;
+    padding: 12px;
+}
+div.button-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+nav button.nav-button{
+    padding: 15px 23px;
+    margin-left: -174px;
+    background-color: #383CC1;
+    color: white;
+    border-radius: 13px;
+    border: none;
+}
+
+/* --------------NAVBAR ENDED------------ */
+
+
+.banner-container{
+    display: flex; 
+}
+
+h1{
+    font-size: 57px;
+    width: 367px;
+    margin-left: 197px;
+    margin-top: 88px;
+    font-family: 'Poppins';
+    color: #120E43;
+}
+h1 span{
+    color: #383CC1;
+}
+p{
+    width: 315px;
+    margin-left: 197px;
+    margin-top: -29px;
+    color: rgb(177, 167, 155);
+}
+button.nav-button.btn{
+    margin-left: 197px;
+    padding: 20px 28px;
+    font-size: 19px;
+    border-radius: 13px;
+    background-color: #383CC1;
+    color: #ffffff;
+    border: none;
+    margin-top: 49px;
+}
+img{
+    margin-left: 67px;
+}
